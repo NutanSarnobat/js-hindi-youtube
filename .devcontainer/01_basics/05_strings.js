@@ -3,9 +3,10 @@ const repoCount=50
 
 // console.log(name+repoCount+"value"); old method
 
-// console.log(`hello my name is ${name} and my repo Count is ${repoCount}`);
+// console.log(`hello my name is ${name} and my repo Count is ${repoCount}`); modern method
 
 const gameName = new String('hitesh-hc-com')
+const index=4;
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
@@ -30,3 +31,10 @@ console.log(url.replace('20%','-'));
 console.log(url.includes('hitesh'));
 
 console.log(gameName.split('-'));
+console.log(gameName.small());
+console.log(gameName.big());
+console.log(gameName.bold());
+console.log(
+  `Character code ${gameName.charCodeAt(index)} is equal to ${gameName.charAt(
+    index,
+  )}`)
